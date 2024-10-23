@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title></title>
-      <style>
-        .divRules{
-          background-color: blueviolet;
-          height:30px ;
-          width:30px ;
-          margin:10px ;
-        }
-          .mainContentContaner{
-            display: grid;
-            grid-template-columns: auto auto;
-          }
 
-        }
-      </style>
-      <div class="divRules" style="height: 30px;" width:1200px; >1</div>
+<head>
+  <style>
+    .divRules {
+      background-color: rgb(41, 196, 196);
+      height: 50px;
+      width: 50px;
+      margin: 10px;
+    }
 
-      <div class="mainContentContaner">
-      <diV class="divRules" style="height: 200px;" width:800px;>2</div>
-      <div class="divRules" style="height: 200px;" width:350px;>3</div>
-       </div>
+    .container {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .containerCard {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+  </style>
+</head>
 
-      <di class="divRules">4</div>
-      <div class="divRules">5</div>
-      <div class="divRules">6</div>
-      <div class="divRules">7</div>
-    </title>
-  </head>
+<body>
+  <div class="divRules" style="width: 1200px;">1</div>
+
+  <div class="container">
+    <diV class="divRules" style="width: 700px; height:300px;">2</div>
+    <div class="divRules" style="width: 350px; height:300px;">3</div>
+  </div>
+
+  <div class="containerCard">
+  <div class="divRules" style="width: 350px; height:300px;">4</div>
+  <div class="divRules" style="width: 350px; height:300px;">5</div>
+  <div class="divRules" style="width: 350px; height:300px;">6</div>
+</div>
+  <div class="divRules">7</div>
+</body>
+
+
 </html>
