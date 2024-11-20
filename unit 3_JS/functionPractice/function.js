@@ -24,4 +24,11 @@ function examplesFunction(){
 // telling the computer the instructions- NOT to actually run it.
 
 // we access or call a function by writting its name.
-examplesFunction()
+examplesFunction(
+    
+)
+let accountBlance = 1000;
+function depositMoney(){
+    let newBalance =accountBlance+200;
+    document.getElementById("data").innerHTML=newBalance;
+}
