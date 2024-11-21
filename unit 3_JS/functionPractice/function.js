@@ -28,7 +28,7 @@ examplesFunction(
     
 )
 let accountBlance = 1000;
-function depositMoney(){
+function depositMoney(depositMoney){
     let newBalance =accountBlance+200;
     document.getElementById("data").innerHTML=newBalance;
 }
