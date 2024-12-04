@@ -32,3 +32,23 @@ if (name != guest ){
 }
 }
 pizzaPartyInvitation('Yasir')
+
+
+function hoursToMinutes(hour){
+    console.log( hour * 60 + 'munutes')
+    }
+    
+    hoursToMinutes(2)
+
+
+    function timeManagementSystem(hourWorked){
+        if (hoursWorked < 8) {
+            console.log("Unfortuately you will not get paid full time pay")        
+        }
+        else if (hoursWorked > 8){
+            console.log("You will be paid overtime.")
+        }
+        else {
+     console.log("you will get paid full time for the day.")
+        }
+    }
