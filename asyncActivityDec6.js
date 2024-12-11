@@ -1,9 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<p id="demo"></p>
+function reveseWorld(word){
+    var originalStr = "word";
+    var reversedStr = "";
 
-</body>
-</html>
+    for ( i = 0; i < originalStr.length; i++ ){
+        reversedStr = originalStr.charAt(i) + reversedStr;
+    }
+    console.log ("Reversed string:"+ reversedStr)
+}
+
+reveseWorld('Yasir Headen')
+
+const word = "Banana"
+const newWord = word.split("")
+const reveseWorld= newWord.reverse()
+console.log(reveseWorld)
