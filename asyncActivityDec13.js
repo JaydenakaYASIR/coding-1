@@ -17,3 +17,5 @@ function membershipDiscount(){
         console.log("you are a ultra shopper. You get 10 percent off.");
     }
 }
+
+membershipDiscount();
