@@ -48,3 +48,19 @@ var  RandomData = [' Yasir', 202020,
    false,
 groceryProduceIsleList
 ]
+
+
+
+
+
+
+
+var numbers =[1,30,39,50,293,100]
+
+
+
+
+function multiplier(x){
+   console.log(0 * 293)
+}
+multiplier(5)
