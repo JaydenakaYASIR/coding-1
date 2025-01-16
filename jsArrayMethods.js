@@ -30,3 +30,20 @@ console.log(generalList)
 
 
 console.log(generalList.Length)
+
+
+
+
+
+
+var snowgear =['gloves', 'hats','mittens','coat',]
+
+
+snowgear.splice(1,1'')
+console.log(snowgear)
+
+
+
+
+
+
