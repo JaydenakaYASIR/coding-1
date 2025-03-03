@@ -1,0 +1,29 @@
+1. Game Meachanics:
+
+the game meachanics are really just shooting.
+
+
+
+2. controls & User Input:
+
+The controls are keyboard to move would be the arrows to shoot would be z and to reload would be x.
+
+
+
+3.Graphics & Animations:
+
+the Graphics would have something simular to doom but diddy's house and the animations would be 2d.
+
+
+
+4. Game Objective:
+
+
+the Objective of the game would be to actully escape diddy's house. 
+
+
+
+5. Unique Features:
+
+
+
