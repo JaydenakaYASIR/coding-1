@@ -1,5 +1,14 @@
-#gameBackGround{
-    background-color: blue;
-    height:100px;
-    width:300px
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.choice-btn {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 8px;
 }
